@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -20,6 +21,7 @@ namespace LEDScreenPrint_Client
         private Socket socketClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         private String configFilePath;
         private int sendMessage = 0;
+        private DateTime createDate;
 
         public FrmMain()
         {
@@ -30,11 +32,18 @@ namespace LEDScreenPrint_Client
             socketIPAddress = ConfigHelper.ReadIniData("Setting", "ServerIP", "127.0.0.1", configFilePath);
             //获取Server服务端口号
             socketPort = Convert.ToInt32(ConfigHelper.ReadIniData("Setting", "ServerPort", "8888", configFilePath));
+            //获取程序生成时间
+            createDate = new FileInfo(System.Windows.Forms.Application.ExecutablePath).CreationTime;
             //初始化连接
             initSocket();
             //载入配置文件
             LoadSetting();
-            
+            if (DateTime.Compare(DateTime.Now, createDate.AddDays(30)) > 0)
+            {
+                MessageBox.Show("试用到期");
+                Application.Exit();
+            }
+
         }
 
 
@@ -81,6 +90,7 @@ namespace LEDScreenPrint_Client
             //设置窗体颜色及大小
             nudScreenHeight.Value = Convert.ToDecimal(ConfigHelper.ReadIniData("Screen", "ScreenHeight", "200", configFilePath));
             sendMessage = 1;
+            cbxFontName.Text = ConfigHelper.ReadIniData("FontName", "FontName", "宋体", configFilePath);
         }
         private void initSocket()
         {
@@ -89,11 +99,10 @@ namespace LEDScreenPrint_Client
             try
             {
                 socketClient.Connect(new IPEndPoint(ip, socketPort)); //配置服务器IP与端口
-                Console.WriteLine("连接服务器成功");
             }
-            catch
+            catch(Exception ex)
             {
-                Console.WriteLine("连接服务器失败，请按回车键退出！");
+                MessageBox.Show(ex.Message, "连接服务器失败");
                 return;
             }
         }
@@ -436,21 +445,23 @@ namespace LEDScreenPrint_Client
 
         private void FrmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-            try
-            {
-                socketClient.Shutdown(SocketShutdown.Both);
-                socketClient.Close();
-            }
-            catch(Exception ex)
-            {
+            System.Environment.Exit(0);
 
-            }
-            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+        }
+
+        private void cbxFontName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (sendMessage == 1)
+            {
+                ConfigHelper.WriteIniData("FontName", "FontName", cbxFontName.Text, configFilePath);
+                SendMessage("FontName|" + cbxFontName.Text);
+            }
+            
         }
     }
 }

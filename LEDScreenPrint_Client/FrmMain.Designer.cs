@@ -114,10 +114,11 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.cbxFontName = new System.Windows.Forms.ComboBox();
+            this.label46 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.nudScreenHeight = new System.Windows.Forms.NumericUpDown();
-            this.label46 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNowTimeSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNowWeekSize)).BeginInit();
@@ -198,6 +199,11 @@
             // 
             // nudNowTimeSize
             // 
+            this.nudNowTimeSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowTimeSize.Location = new System.Drawing.Point(462, 235);
             this.nudNowTimeSize.Name = "nudNowTimeSize";
             this.nudNowTimeSize.Size = new System.Drawing.Size(100, 35);
@@ -206,6 +212,11 @@
             // 
             // nudNowWeekSize
             // 
+            this.nudNowWeekSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowWeekSize.Location = new System.Drawing.Point(462, 180);
             this.nudNowWeekSize.Name = "nudNowWeekSize";
             this.nudNowWeekSize.Size = new System.Drawing.Size(100, 35);
@@ -214,6 +225,11 @@
             // 
             // nudNowDateSize
             // 
+            this.nudNowDateSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowDateSize.Location = new System.Drawing.Point(462, 120);
             this.nudNowDateSize.Name = "nudNowDateSize";
             this.nudNowDateSize.Size = new System.Drawing.Size(100, 35);
@@ -222,6 +238,11 @@
             // 
             // nudNowSize
             // 
+            this.nudNowSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowSize.Location = new System.Drawing.Point(462, 60);
             this.nudNowSize.Name = "nudNowSize";
             this.nudNowSize.Size = new System.Drawing.Size(100, 35);
@@ -266,6 +287,11 @@
             // 
             // nudNowTimeY
             // 
+            this.nudNowTimeY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowTimeY.Location = new System.Drawing.Point(310, 233);
             this.nudNowTimeY.Maximum = new decimal(new int[] {
             9999,
@@ -284,6 +310,11 @@
             // 
             // nudNowWeekY
             // 
+            this.nudNowWeekY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowWeekY.Location = new System.Drawing.Point(310, 178);
             this.nudNowWeekY.Maximum = new decimal(new int[] {
             9999,
@@ -302,6 +333,11 @@
             // 
             // nudNowDateY
             // 
+            this.nudNowDateY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowDateY.Location = new System.Drawing.Point(310, 118);
             this.nudNowDateY.Maximum = new decimal(new int[] {
             9999,
@@ -320,6 +356,11 @@
             // 
             // nudNowY
             // 
+            this.nudNowY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowY.Location = new System.Drawing.Point(310, 58);
             this.nudNowY.Maximum = new decimal(new int[] {
             9999,
@@ -374,6 +415,11 @@
             // 
             // nudNowTimeX
             // 
+            this.nudNowTimeX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowTimeX.Location = new System.Drawing.Point(159, 231);
             this.nudNowTimeX.Maximum = new decimal(new int[] {
             9999,
@@ -392,6 +438,11 @@
             // 
             // nudNowWeekX
             // 
+            this.nudNowWeekX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowWeekX.Location = new System.Drawing.Point(159, 176);
             this.nudNowWeekX.Maximum = new decimal(new int[] {
             9999,
@@ -410,6 +461,11 @@
             // 
             // nudNowDateX
             // 
+            this.nudNowDateX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowDateX.Location = new System.Drawing.Point(159, 116);
             this.nudNowDateX.Maximum = new decimal(new int[] {
             9999,
@@ -428,6 +484,11 @@
             // 
             // nudNowX
             // 
+            this.nudNowX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudNowX.Location = new System.Drawing.Point(159, 56);
             this.nudNowX.Maximum = new decimal(new int[] {
             9999,
@@ -536,6 +597,11 @@
             // 
             // nudTitleSize
             // 
+            this.nudTitleSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudTitleSize.Location = new System.Drawing.Point(1142, 63);
             this.nudTitleSize.Name = "nudTitleSize";
             this.nudTitleSize.Size = new System.Drawing.Size(100, 35);
@@ -588,6 +654,11 @@
             // 
             // nudTitleX
             // 
+            this.nudTitleX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudTitleX.Location = new System.Drawing.Point(860, 63);
             this.nudTitleX.Maximum = new decimal(new int[] {
             9999,
@@ -615,6 +686,11 @@
             // 
             // nudTitleY
             // 
+            this.nudTitleY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudTitleY.Location = new System.Drawing.Point(1006, 63);
             this.nudTitleY.Maximum = new decimal(new int[] {
             9999,
@@ -677,6 +753,11 @@
             // 
             // nudFightTimeSecond
             // 
+            this.nudFightTimeSecond.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeSecond.Location = new System.Drawing.Point(826, 65);
             this.nudFightTimeSecond.Maximum = new decimal(new int[] {
             59,
@@ -690,6 +771,11 @@
             // 
             // nudFightTimeDay
             // 
+            this.nudFightTimeDay.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeDay.Location = new System.Drawing.Point(427, 65);
             this.nudFightTimeDay.Maximum = new decimal(new int[] {
             31,
@@ -713,6 +799,11 @@
             // 
             // nudFightTimeHour
             // 
+            this.nudFightTimeHour.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeHour.Location = new System.Drawing.Point(560, 65);
             this.nudFightTimeHour.Maximum = new decimal(new int[] {
             24,
@@ -744,6 +835,11 @@
             // 
             // nudFightTimeYear
             // 
+            this.nudFightTimeYear.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeYear.Location = new System.Drawing.Point(161, 65);
             this.nudFightTimeYear.Maximum = new decimal(new int[] {
             9999,
@@ -803,6 +899,11 @@
             // 
             // nudFightTimeMinute
             // 
+            this.nudFightTimeMinute.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeMinute.Location = new System.Drawing.Point(693, 65);
             this.nudFightTimeMinute.Maximum = new decimal(new int[] {
             59,
@@ -825,6 +926,11 @@
             // 
             // nudFightTimeMonth
             // 
+            this.nudFightTimeMonth.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeMonth.Location = new System.Drawing.Point(294, 65);
             this.nudFightTimeMonth.Maximum = new decimal(new int[] {
             12,
@@ -885,6 +991,11 @@
             // 
             // nudFightTimeSize
             // 
+            this.nudFightTimeSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeSize.Location = new System.Drawing.Point(462, 236);
             this.nudFightTimeSize.Name = "nudFightTimeSize";
             this.nudFightTimeSize.Size = new System.Drawing.Size(100, 35);
@@ -902,6 +1013,11 @@
             // 
             // nudFightWeekSize
             // 
+            this.nudFightWeekSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightWeekSize.Location = new System.Drawing.Point(462, 181);
             this.nudFightWeekSize.Name = "nudFightWeekSize";
             this.nudFightWeekSize.Size = new System.Drawing.Size(100, 35);
@@ -919,6 +1035,11 @@
             // 
             // nudFightDateSize
             // 
+            this.nudFightDateSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightDateSize.Location = new System.Drawing.Point(462, 121);
             this.nudFightDateSize.Name = "nudFightDateSize";
             this.nudFightDateSize.Size = new System.Drawing.Size(100, 35);
@@ -936,6 +1057,11 @@
             // 
             // nudFightSize
             // 
+            this.nudFightSize.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightSize.Location = new System.Drawing.Point(462, 61);
             this.nudFightSize.Name = "nudFightSize";
             this.nudFightSize.Size = new System.Drawing.Size(100, 35);
@@ -1025,6 +1151,11 @@
             // 
             // nudFightTimeY
             // 
+            this.nudFightTimeY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeY.Location = new System.Drawing.Point(310, 234);
             this.nudFightTimeY.Maximum = new decimal(new int[] {
             9999,
@@ -1043,6 +1174,11 @@
             // 
             // nudFightX
             // 
+            this.nudFightX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightX.Location = new System.Drawing.Point(159, 57);
             this.nudFightX.Maximum = new decimal(new int[] {
             9999,
@@ -1061,6 +1197,11 @@
             // 
             // nudFightWeekY
             // 
+            this.nudFightWeekY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightWeekY.Location = new System.Drawing.Point(310, 179);
             this.nudFightWeekY.Maximum = new decimal(new int[] {
             9999,
@@ -1079,6 +1220,11 @@
             // 
             // nudFightDateX
             // 
+            this.nudFightDateX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightDateX.Location = new System.Drawing.Point(159, 117);
             this.nudFightDateX.Maximum = new decimal(new int[] {
             9999,
@@ -1097,6 +1243,11 @@
             // 
             // nudFightDateY
             // 
+            this.nudFightDateY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightDateY.Location = new System.Drawing.Point(310, 119);
             this.nudFightDateY.Maximum = new decimal(new int[] {
             9999,
@@ -1115,6 +1266,11 @@
             // 
             // nudFightWeekX
             // 
+            this.nudFightWeekX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightWeekX.Location = new System.Drawing.Point(159, 177);
             this.nudFightWeekX.Maximum = new decimal(new int[] {
             9999,
@@ -1133,6 +1289,11 @@
             // 
             // nudFightY
             // 
+            this.nudFightY.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightY.Location = new System.Drawing.Point(310, 59);
             this.nudFightY.Maximum = new decimal(new int[] {
             9999,
@@ -1151,6 +1312,11 @@
             // 
             // nudFightTimeX
             // 
+            this.nudFightTimeX.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.nudFightTimeX.Location = new System.Drawing.Point(159, 232);
             this.nudFightTimeX.Maximum = new decimal(new int[] {
             9999,
@@ -1205,6 +1371,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.cbxFontName);
             this.groupBox5.Controls.Add(this.label46);
             this.groupBox5.Controls.Add(this.label45);
             this.groupBox5.Controls.Add(this.label47);
@@ -1216,10 +1383,36 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "服务器设置";
             // 
+            // cbxFontName
+            // 
+            this.cbxFontName.FormattingEnabled = true;
+            this.cbxFontName.Items.AddRange(new object[] {
+            "仿宋",
+            "华文中宋",
+            "华文宋体",
+            "宋体",
+            "楷体",
+            "黑体",
+            "隶书"});
+            this.cbxFontName.Location = new System.Drawing.Point(534, 60);
+            this.cbxFontName.Name = "cbxFontName";
+            this.cbxFontName.Size = new System.Drawing.Size(213, 32);
+            this.cbxFontName.TabIndex = 2;
+            this.cbxFontName.SelectedIndexChanged += new System.EventHandler(this.cbxFontName_SelectedIndexChanged);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(382, 64);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(130, 24);
+            this.label46.TabIndex = 0;
+            this.label46.Text = "显示字体：";
+            // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(28, 66);
+            this.label45.Location = new System.Drawing.Point(28, 64);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(130, 24);
             this.label45.TabIndex = 0;
@@ -1228,7 +1421,7 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(269, 66);
+            this.label47.Location = new System.Drawing.Point(269, 64);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(82, 24);
             this.label47.TabIndex = 0;
@@ -1236,7 +1429,12 @@
             // 
             // nudScreenHeight
             // 
-            this.nudScreenHeight.Location = new System.Drawing.Point(164, 61);
+            this.nudScreenHeight.Increment = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.nudScreenHeight.Location = new System.Drawing.Point(164, 59);
             this.nudScreenHeight.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -1246,15 +1444,6 @@
             this.nudScreenHeight.Size = new System.Drawing.Size(100, 35);
             this.nudScreenHeight.TabIndex = 1;
             this.nudScreenHeight.ValueChanged += new System.EventHandler(this.nudScreenHeight_ValueChanged);
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(860, 63);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(274, 24);
-            this.label46.TabIndex = 2;
-            this.label46.Text = "更多功能等待开放中……";
             // 
             // FrmMain
             // 
@@ -1414,6 +1603,7 @@
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.NumericUpDown nudScreenHeight;
+        private System.Windows.Forms.ComboBox cbxFontName;
         private System.Windows.Forms.Label label46;
     }
 }

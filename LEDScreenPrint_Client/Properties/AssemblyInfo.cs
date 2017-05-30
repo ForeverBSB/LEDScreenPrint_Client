@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("LEDScreenPrint_Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("南极洲网络科技工作室")]
+[assembly: AssemblyCompany("鼎森新兴科技有限公司")]
 [assembly: AssemblyProduct("LEDScreenPrint_Client")]
-[assembly: AssemblyCopyright("Copyright © 南极洲网络科技工作室 2017")]
+[assembly: AssemblyCopyright("Copyright © 鼎森新兴科技有限公司 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
